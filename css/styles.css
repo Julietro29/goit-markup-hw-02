@@ -16,17 +16,17 @@ body {
 }
 
 .logo {
-    font-family: Raleway;
-    color:var(--c-background);
+    font-family: "Raleway", sans-serif;
+    color:var(--c-brand);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-accent {
-    color: var(--c-brand);
+    color: var(--c-background);
 }
 
 a {
@@ -44,7 +44,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.nav-link:active {
+.nav-link:hover, .nav-link:active {
     color: var(--c-ocean);
     text-decoration: underline;
 }
@@ -57,7 +57,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.adress-link:active, .adress-link:focus {
+.adress-link:hover, adress-link:active, .adress-link:focus {
     color: var(--c-ocean);
 }
 
@@ -96,14 +96,12 @@ button {
     background-color: var(--c-brand);
     border: none;
     cursor: pointer;
-    padding: 16px 32px;
-    border-radius: 4px;
-    font-weight: 600;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    line-height: 1.21;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em
 }
 
-.hero-button:hover {
+.hero-button:hover, .hero-button:focus {
     color: var(--c-white);
     background-color: var(--c-ocean);
 }
@@ -118,6 +116,8 @@ button {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .goals-text {
     color: var(--c-adress-link);
@@ -136,8 +136,10 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
-
-.our-team-items {
+.our-team-list {
+    background-color: var(--c-white);
+}
+.our-team-item {
     color: var(--c-background);
     font-size: 20px;
     font-weight: 500;
@@ -163,6 +165,7 @@ button {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .our-portfolio-items {
     color: var(--c-background);
@@ -184,11 +187,11 @@ button {
     background-color: var(--c-background);
 }
 .footer-logo {
-    font-family: Raleway;
-    color: var(--c-team-background);
+    font-family: "Raleway", sans-serif;
+    color: var(--c-brand);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
