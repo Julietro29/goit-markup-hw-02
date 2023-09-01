@@ -186,16 +186,9 @@ button {
 .footer-section {
     background-color: var(--c-background);
 }
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    color: var(--c-brand);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.footer-logo-accent {
+    color: var(--c-team-background);
 }
-
 .footer-text {
     color: var(--c-team-background);
     font-weight: 400;
