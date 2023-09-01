@@ -44,7 +44,7 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.nav-link:hover, .nav-link:active {
+.nav-link:hover, .nav-link:active, .nav-link:focus {
     color: var(--c-ocean);
     text-decoration: underline;
 }
@@ -61,19 +61,6 @@ ul {
     color: var(--c-ocean);
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 .hero-section {
     background-color: var(--c-background);
 }
@@ -85,6 +72,7 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-transform: capitalize
 }
 
 button {
@@ -135,6 +123,7 @@ button {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .our-team-list {
     background-color: var(--c-white);
@@ -145,6 +134,7 @@ button {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-transform: capitalize
 }
 .our-team-text {
     color: var(--c-adress-link);
@@ -167,12 +157,16 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.our-portfolio-list {
+    background-color: var(--c-white);
+}
 .our-portfolio-items {
     color: var(--c-background);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-transform: capitalize
 }
 .our-portfolio-text {
     color: var(--c-adress-link);
