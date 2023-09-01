@@ -99,6 +99,15 @@ button {
 .goals-section {
     background-color: var(--c-white);
 }
+.goals-section-title {
+    color: var(--c-background);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 .goals-title {
     color: var(--c-background);
     font-size: 20px;
