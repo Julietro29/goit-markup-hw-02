@@ -46,7 +46,6 @@ ul {
 
 .nav-link:hover, .nav-link:active, .nav-link:focus {
     color: var(--c-ocean);
-    text-decoration: underline;
 }
 
 .adress-link {
